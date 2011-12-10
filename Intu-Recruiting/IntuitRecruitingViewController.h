@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IntuitRecruitingViewController : UIViewController
+@interface IntuitRecruitingViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate, UIPopoverControllerDelegate>
+{
+    UIImagePickerController *ipc;
+    UIPopoverController *popoverController;
+}
+@property (strong, nonatomic) IBOutlet UILabel *dataLabel;
+@property (strong, nonatomic) id dataObject;
+@property (strong, nonatomic) UIImagePickerController *ipc;
+@property (strong, nonatomic) UIPopoverController *popoverController;
+
+- (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info;
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo; 
+- (IBAction) snapImage:(id)sender;
+- (void) useCameraRoll;
+
 
 @end
