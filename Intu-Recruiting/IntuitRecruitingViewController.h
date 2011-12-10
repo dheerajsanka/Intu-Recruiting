@@ -15,6 +15,7 @@
     IBOutlet UITextField *nameField;
     IBOutlet UISlider *rateSlider;
     IBOutlet UIImageView *userPhoto;
+    IBOutlet UIButton *saveButton;
 }
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
