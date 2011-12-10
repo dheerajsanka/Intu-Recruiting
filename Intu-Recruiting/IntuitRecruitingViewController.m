@@ -32,6 +32,9 @@
 
 - (void)viewDidUnload
 {
+    nameField = nil;
+    rateSlider = nil;
+    userPhoto = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -110,6 +113,9 @@
 		NSLog(@"Image written to photo album");
 	else
 		NSLog(@"Error writing to photo album: %@", [error localizedDescription]);
+}
+
+- (IBAction)nameField:(id)sender {
 }
 
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info

@@ -12,6 +12,9 @@
 {
     UIImagePickerController *ipc;
     UIPopoverController *popoverController;
+    IBOutlet UITextField *nameField;
+    IBOutlet UISlider *rateSlider;
+    IBOutlet UIImageView *userPhoto;
 }
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
