@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17114741492CBDC00EBD81D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17114731492CBDC00EBD81D /* UIKit.framework */; };
+		A17114761492CBDC00EBD81D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17114751492CBDC00EBD81D /* Foundation.framework */; };
+		A17114781492CBDC00EBD81D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17114771492CBDC00EBD81D /* CoreGraphics.framework */; };
+		A171147E1492CBDC00EBD81D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A171147C1492CBDC00EBD81D /* InfoPlist.strings */; };
+		A17114801492CBDC00EBD81D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A171147F1492CBDC00EBD81D /* main.m */; };
+		A17114841492CBDC00EBD81D /* IntuitRecruitingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A17114831492CBDC00EBD81D /* IntuitRecruitingAppDelegate.m */; };
+		A17114871492CBDC00EBD81D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17114851492CBDC00EBD81D /* MainStoryboard.storyboard */; };
+		A171148A1492CBDC00EBD81D /* IntuitRecruitingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17114891492CBDC00EBD81D /* IntuitRecruitingViewController.m */; };
+		A17114921492CBDC00EBD81D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17114911492CBDC00EBD81D /* SenTestingKit.framework */; };
+		A17114931492CBDC00EBD81D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17114731492CBDC00EBD81D /* UIKit.framework */; };
+		A17114941492CBDC00EBD81D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17114751492CBDC00EBD81D /* Foundation.framework */; };
+		A171149C1492CBDC00EBD81D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A171149A1492CBDC00EBD81D /* InfoPlist.strings */; };
+		A171149F1492CBDC00EBD81D /* Intu_RecruitingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A171149E1492CBDC00EBD81D /* Intu_RecruitingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17114951492CBDC00EBD81D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17114661492CBDC00EBD81D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A171146E1492CBDC00EBD81D;
+			remoteInfo = "Intu-Recruiting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A171146F1492CBDC00EBD81D /* Intu-Recruiting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intu-Recruiting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17114731492CBDC00EBD81D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A17114751492CBDC00EBD81D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A17114771492CBDC00EBD81D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A171147B1492CBDC00EBD81D /* Intu-Recruiting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Intu-Recruiting-Info.plist"; sourceTree = "<group>"; };
+		A171147D1492CBDC00EBD81D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A171147F1492CBDC00EBD81D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A17114811492CBDC00EBD81D /* Intu-Recruiting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Intu-Recruiting-Prefix.pch"; sourceTree = "<group>"; };
+		A17114821492CBDC00EBD81D /* IntuitRecruitingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntuitRecruitingAppDelegate.h; sourceTree = "<group>"; };
+		A17114831492CBDC00EBD81D /* IntuitRecruitingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntuitRecruitingAppDelegate.m; sourceTree = "<group>"; };
+		A17114861492CBDC00EBD81D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A17114881492CBDC00EBD81D /* IntuitRecruitingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntuitRecruitingViewController.h; sourceTree = "<group>"; };
+		A17114891492CBDC00EBD81D /* IntuitRecruitingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntuitRecruitingViewController.m; sourceTree = "<group>"; };
+		A17114901492CBDC00EBD81D /* Intu-RecruitingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intu-RecruitingTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17114911492CBDC00EBD81D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A17114991492CBDC00EBD81D /* Intu-RecruitingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Intu-RecruitingTests-Info.plist"; sourceTree = "<group>"; };
+		A171149B1492CBDC00EBD81D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A171149D1492CBDC00EBD81D /* Intu_RecruitingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Intu_RecruitingTests.h; sourceTree = "<group>"; };
+		A171149E1492CBDC00EBD81D /* Intu_RecruitingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Intu_RecruitingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A171146C1492CBDC00EBD81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17114741492CBDC00EBD81D /* UIKit.framework in Frameworks */,
+				A17114761492CBDC00EBD81D /* Foundation.framework in Frameworks */,
+				A17114781492CBDC00EBD81D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171148C1492CBDC00EBD81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17114921492CBDC00EBD81D /* SenTestingKit.framework in Frameworks */,
+				A17114931492CBDC00EBD81D /* UIKit.framework in Frameworks */,
+				A17114941492CBDC00EBD81D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17114641492CBDC00EBD81D = {
+			isa = PBXGroup;
+			children = (
+				A17114791492CBDC00EBD81D /* Intu-Recruiting */,
+				A17114971492CBDC00EBD81D /* Intu-RecruitingTests */,
+				A17114721492CBDC00EBD81D /* Frameworks */,
+				A17114701492CBDC00EBD81D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17114701492CBDC00EBD81D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A171146F1492CBDC00EBD81D /* Intu-Recruiting.app */,
+				A17114901492CBDC00EBD81D /* Intu-RecruitingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17114721492CBDC00EBD81D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A17114731492CBDC00EBD81D /* UIKit.framework */,
+				A17114751492CBDC00EBD81D /* Foundation.framework */,
+				A17114771492CBDC00EBD81D /* CoreGraphics.framework */,
+				A17114911492CBDC00EBD81D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A17114791492CBDC00EBD81D /* Intu-Recruiting */ = {
+			isa = PBXGroup;
+			children = (
+				A17114821492CBDC00EBD81D /* IntuitRecruitingAppDelegate.h */,
+				A17114831492CBDC00EBD81D /* IntuitRecruitingAppDelegate.m */,
+				A17114851492CBDC00EBD81D /* MainStoryboard.storyboard */,
+				A17114881492CBDC00EBD81D /* IntuitRecruitingViewController.h */,
+				A17114891492CBDC00EBD81D /* IntuitRecruitingViewController.m */,
+				A171147A1492CBDC00EBD81D /* Supporting Files */,
+			);
+			path = "Intu-Recruiting";
+			sourceTree = "<group>";
+		};
+		A171147A1492CBDC00EBD81D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A171147B1492CBDC00EBD81D /* Intu-Recruiting-Info.plist */,
+				A171147C1492CBDC00EBD81D /* InfoPlist.strings */,
+				A171147F1492CBDC00EBD81D /* main.m */,
+				A17114811492CBDC00EBD81D /* Intu-Recruiting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A17114971492CBDC00EBD81D /* Intu-RecruitingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A171149D1492CBDC00EBD81D /* Intu_RecruitingTests.h */,
+				A171149E1492CBDC00EBD81D /* Intu_RecruitingTests.m */,
+				A17114981492CBDC00EBD81D /* Supporting Files */,
+			);
+			path = "Intu-RecruitingTests";
+			sourceTree = "<group>";
+		};
+		A17114981492CBDC00EBD81D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17114991492CBDC00EBD81D /* Intu-RecruitingTests-Info.plist */,
+				A171149A1492CBDC00EBD81D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A171146E1492CBDC00EBD81D /* Intu-Recruiting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17114A21492CBDC00EBD81D /* Build configuration list for PBXNativeTarget "Intu-Recruiting" */;
+			buildPhases = (
+				A171146B1492CBDC00EBD81D /* Sources */,
+				A171146C1492CBDC00EBD81D /* Frameworks */,
+				A171146D1492CBDC00EBD81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intu-Recruiting";
+			productName = "Intu-Recruiting";
+			productReference = A171146F1492CBDC00EBD81D /* Intu-Recruiting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A171148F1492CBDC00EBD81D /* Intu-RecruitingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17114A51492CBDC00EBD81D /* Build configuration list for PBXNativeTarget "Intu-RecruitingTests" */;
+			buildPhases = (
+				A171148B1492CBDC00EBD81D /* Sources */,
+				A171148C1492CBDC00EBD81D /* Frameworks */,
+				A171148D1492CBDC00EBD81D /* Resources */,
+				A171148E1492CBDC00EBD81D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17114961492CBDC00EBD81D /* PBXTargetDependency */,
+			);
+			name = "Intu-RecruitingTests";
+			productName = "Intu-RecruitingTests";
+			productReference = A17114901492CBDC00EBD81D /* Intu-RecruitingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17114661492CBDC00EBD81D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Michigan";
+			};
+			buildConfigurationList = A17114691492CBDC00EBD81D /* Build configuration list for PBXProject "Intu-Recruiting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A17114641492CBDC00EBD81D;
+			productRefGroup = A17114701492CBDC00EBD81D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A171146E1492CBDC00EBD81D /* Intu-Recruiting */,
+				A171148F1492CBDC00EBD81D /* Intu-RecruitingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A171146D1492CBDC00EBD81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171147E1492CBDC00EBD81D /* InfoPlist.strings in Resources */,
+				A17114871492CBDC00EBD81D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171148D1492CBDC00EBD81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171149C1492CBDC00EBD81D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A171148E1492CBDC00EBD81D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A171146B1492CBDC00EBD81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17114801492CBDC00EBD81D /* main.m in Sources */,
+				A17114841492CBDC00EBD81D /* IntuitRecruitingAppDelegate.m in Sources */,
+				A171148A1492CBDC00EBD81D /* IntuitRecruitingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171148B1492CBDC00EBD81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171149F1492CBDC00EBD81D /* Intu_RecruitingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17114961492CBDC00EBD81D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A171146E1492CBDC00EBD81D /* Intu-Recruiting */;
+			targetProxy = A17114951492CBDC00EBD81D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A171147C1492CBDC00EBD81D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A171147D1492CBDC00EBD81D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A17114851492CBDC00EBD81D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17114861492CBDC00EBD81D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A171149A1492CBDC00EBD81D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A171149B1492CBDC00EBD81D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17114A01492CBDC00EBD81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A17114A11492CBDC00EBD81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17114A31492CBDC00EBD81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Intu-Recruiting/Intu-Recruiting-Prefix.pch";
+				INFOPLIST_FILE = "Intu-Recruiting/Intu-Recruiting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A17114A41492CBDC00EBD81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Intu-Recruiting/Intu-Recruiting-Prefix.pch";
+				INFOPLIST_FILE = "Intu-Recruiting/Intu-Recruiting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A17114A61492CBDC00EBD81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Intu-Recruiting.app/Intu-Recruiting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Intu-Recruiting/Intu-Recruiting-Prefix.pch";
+				INFOPLIST_FILE = "Intu-RecruitingTests/Intu-RecruitingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A17114A71492CBDC00EBD81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Intu-Recruiting.app/Intu-Recruiting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Intu-Recruiting/Intu-Recruiting-Prefix.pch";
+				INFOPLIST_FILE = "Intu-RecruitingTests/Intu-RecruitingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17114691492CBDC00EBD81D /* Build configuration list for PBXProject "Intu-Recruiting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17114A01492CBDC00EBD81D /* Debug */,
+				A17114A11492CBDC00EBD81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17114A21492CBDC00EBD81D /* Build configuration list for PBXNativeTarget "Intu-Recruiting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17114A31492CBDC00EBD81D /* Debug */,
+				A17114A41492CBDC00EBD81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A17114A51492CBDC00EBD81D /* Build configuration list for PBXNativeTarget "Intu-RecruitingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17114A61492CBDC00EBD81D /* Debug */,
+				A17114A71492CBDC00EBD81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17114661492CBDC00EBD81D /* Project object */;
+}
