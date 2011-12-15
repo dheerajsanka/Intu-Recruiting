@@ -7,7 +7,7 @@
 //
 
 #import "IntuitRecruitingViewController.h"
-#define SETIMAGE(X) [(UIImageView *)self.view setImage:X];
+
 
 
 @implementation IntuitRecruitingViewController
@@ -121,10 +121,21 @@
 
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
-	UIImage *image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
-	SETIMAGE(image);
-	UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
-	[self dismissModalViewControllerAnimated:YES];
+	//obtaining saving path
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *imagePath = [documentsDirectory stringByAppendingPathComponent:@"latest_photo.png"];
+    
+    //extracting image from the picker and saving it
+    NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];   
+    
+    if ([mediaType isEqualToString:@"public.image"]){
+        UIImage *editedImage = [info objectForKey:UIImagePickerControllerOriginalImage];
+        NSData *webData = UIImagePNGRepresentation(editedImage);
+        [webData writeToFile:imagePath atomically:YES];
+        //[[NSFileManager defaultManager] createFileAtPath:imagePath contents:webData attributes:nil];
+    }
+    [self.popoverController dismissPopoverAnimated:YES];
 }
 
 -(IBAction)snapImage:(id)sender
